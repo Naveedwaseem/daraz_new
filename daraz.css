@@ -1,0 +1,291 @@
+body {
+
+   background-color: #e7e8ec !important;
+   overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+   width: 8px;
+   height: 8px;
+   border-radius: 25px;
+ }
+
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background: gray;
+ }
+ 
+.color a {
+   color: black;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+/* hedar  */
+
+
+/* nav_2 */
+
+.nav_2 {
+   width: 100%;
+   height: 75px;
+   align-items: center;
+   background-color: white;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 99999999999;
+   
+
+}
+.nav_men{
+   width: 100%;
+   height: 75px;
+   align-items: center;
+}
+.input-group span {
+   background-color: #f85606;
+   color: #e7e8ec;
+
+}
+
+.icon i {
+   font-size: 25px;
+}
+
+#focus {
+   background-color: #f5f5f5;
+}
+
+.input-group:focus {
+   border-color: inherit;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+.form-control{
+   border: none !important;
+}
+.form-control:focus {
+   box-shadow: none !important;
+   border-color: inherit !important;
+   color: inherit !important;
+   outline: none !important;
+   border: none;
+}
+
+/* silidar */
+.silidar {
+   background-color: white;
+}
+.silidar ul {
+   list-style-type: none;
+}
+.silidar li {
+   font-size: 13px;
+}
+
+.line_1 {
+   width: 230px;
+   height: 30px;
+   background-color: white;
+}
+
+.line_1 img {
+   width: 30px;
+}
+
+.form-control {
+   border: 0px !important;
+}
+
+.con:hover {
+   cursor: pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.con {
+   position: relative;
+   display: inline-block;
+}
+
+.abs {
+   display: none;
+   margin-top: 8px;
+}
+
+.con:hover .abs {
+   display: inline-block;
+}
+
+.yelow:hover {
+   color: yellow;
+}
+
+.green:hover {
+   color: rgb(23, 170, 23);
+
+}
+
+
+/* Flash Sale  */
+
+.card_p .h4 {
+   color: rgb(100, 98, 98);
+   font-family: sans-serif;
+}
+
+.On_Sale_Now {
+   
+   background-color: white;
+}
+
+.box {
+   width: 35px;
+   height: 35px;
+   background-color: #f85606;
+   display: flex;
+   align-items: center;
+   padding-left: 8px;
+   color: white;
+}
+
+.box-contant {
+   border-bottom: solid 1px gray;
+
+}
+
+.card img {
+   width: 150px;
+   height: 150px;
+}
+.card p {
+   font-size: 13px;
+
+}
+
+.card:hover {
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   transition: ease-out 3ms;
+}
+.card p span del {
+   font-size: 11px;
+   color: gray;
+}
+
+.card_col_gab {
+   column-gap: 12px;
+}
+
+.squre {
+   width: 50px;
+   height: 50px;
+   background-color: #e7e8ec;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.position {
+   position: relative;
+   bottom: 20px;
+}
+.squre img {
+   width: 100%;
+   height: 100%;
+}
+
+.pre .size_md {
+   font-size: 13px;
+}
+
+.pre .size_sm {
+   font-size: 10px;
+
+}
+
+.card_2 {
+   
+   height: 260px !important;
+}
+
+.card_2  {
+    width: 170px !important;
+
+}
+
+.card_3 {
+   width: 134px;
+   height: 135px !important;
+   display: block;
+}
+
+.card_3 img {
+   width: 70px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+}
+
+ /* star card  part_4 */
+
+ .star_icon i {
+   font-size: 10px;
+   color: rgb(255, 187, 0);
+   
+   
+}
+
+.star_icon p {
+   font-size: 10px;
+   color: gray;
+}
+
+.card-body .size{
+   font-size: 16px;
+   color: red;
+   font-weight: 500;
+}
+
+/* lode_more button */
+
+.lode_more button {
+   padding-right: 130px;
+   padding-left: 130px;
+   color: orangered;
+   border: solid 1px orangered;
+   border-radius: 0px;
+   font-size: 13px;
+
+}
+
+.lode_more button:hover{
+   background-color: transparent;
+   color: orangered;
+   border: solid 1px orangered;
+}
+
+   /* footer */
+
+.light{
+   background-color: #2e2e54;
+   color:#fff ;
+
+}
+.light h6 {
+   font-size: 14px;
+}
+.light a {
+   text-decoration: none;
+   color:#fff ;
+   font-size: 10px;
+}
+.light p{
+   font-size: 10px;
+
+}
+.orange {
+   color: orangered;
+
+}
